@@ -1,0 +1,65 @@
+.logo{
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.sidebar {
+    background-color: #3d4255;
+    color: white;
+    width: 250px;
+    height: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+  }
+  
+  .navbar-brand-box {
+    padding: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .menu-items {
+    padding-top: 6px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    background-color: #555b70;
+  }
+  
+  .icon {
+    margin-right: 16px;
+    color: white;
+  }
+  
+  .text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .text:hover {
+    color: #bbe1fa;
+  }
+
+  .create-new{
+    margin-left: 200px;
+    font-weight: 400;
+  }
+  

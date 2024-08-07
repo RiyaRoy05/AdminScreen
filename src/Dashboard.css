@@ -1,0 +1,254 @@
+.main-content{
+  margin-top: 100px;
+}
+  .cards {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 270px; 
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .purple {
+    background-color: #7266bb;
+    color: white;
+  }
+  
+  .card.purple {
+    width: 255px; 
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em; 
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dashboard{
+    margin-left: 275px;
+  }
+
+  .price {
+    margin-right: 10px; 
+    font-size: 1.2em;  
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .green {
+    background-color: #2ac14e;
+    color: white;
+  }
+
+  .card.green {
+    width: 255px; 
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em; 
+  }
+
+  .orange {
+    background-color: #f8ac5a;
+    color: white;
+  }
+
+  .card.orange {
+    width: 255px; 
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em; 
+  }
+
+  .blue {
+    background-color: #23b5e2;
+    color: white;
+  }
+
+  .card.blue {
+    width: 255px; 
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em; 
+  }
+
+  .chart {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: white;
+    height: 395px;
+    margin-left: 180px;
+    object-fit: cover;
+    width: 490px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .chart h2 {
+    margin-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .detail, .detail2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px; 
+  }
+  
+  .value, .value2 {
+    margin-top: 5px; 
+  }
+
+  .graph-image{
+    margin-left: 380px;
+    
+    margin-top: 100px;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 95px;
+    
+  }
+
+  .sales-chart{
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: white;
+    height: 396px;
+    margin-left: 30px;
+    object-fit: cover;
+    width: 96px;
+    margin-bottom: 99px;
+    margin-right: px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .line-chart{
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: white;
+    height: 395px;
+    margin-left: 10px;
+    object-fit: cover;
+    width: 490px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  .sales-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 20px 0; 
+  }
+  
+  .chart-heading {
+    margin-bottom: 10px; 
+  }
+  
+  .small-chart {
+    width: 150px; 
+    height: 150px; 
+  }
+  
+/* RecentBuyers.css */
+
+.recent-buyers {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.recent-buyers h2 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.recent-buyers p {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #666;
+}
+
+.recent-buyers table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-buyers th, .recent-buyers td {
+  text-align: left;
+  padding: 8px;
+}
+
+.recent-buyers th {
+  background-color: #f4f4f4;
+}
+
+.recent-buyers tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.recent-buyers .category {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.9em;
+}
+
+.recent-buyers .category.mobile { background-color: #87CEEB; }
+.recent-buyers .category.tablet { background-color: #4682B4; }
+.recent-buyers .category.electronics { background-color: #32CD32; }
+.recent-buyers .category.cosmetics { background-color: #FF69B4; }
+.recent-buyers .category.appliances { background-color: #FFA07A; }
+
+.recent-buyers .popularity-bar {
+  width: 100px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.recent-buyers .popularity {
+  height: 100%;
+  background-color: #87CEEB;
+}
+
